@@ -111,9 +111,9 @@ CREATE TABLE resumen_combustibles_anuales (
 );
 ```
 
-> [!NOTE] Consideraciones
-> Restricciones: Se han definido restricciones de unicidad en la tabla precios_combustibles para evitar duplicados de registros por fecha y ciudad.
-> Tipos de datos: Se han utilizado tipos de datos adecuados para cada columna, asegurando que los precios se almacenen con precisión.
-> Índices: Los índices propuestos mejorarán el rendimiento de las consultas, especialmente en tablas con un gran volumen de datos.
+> [!NOTE] 
+> - **Restricciones**: Se han definido restricciones de unicidad en la tabla precios_combustibles para evitar duplicados de registros por fecha y ciudad.<br>
+> - **Tipos de datos**: Se han utilizado tipos de datos adecuados para cada columna, asegurando que los precios se almacenen con precisión.<br>
+> - **Índices**: Los índices propuestos mejorarán el rendimiento de las consultas, especialmente en tablas con un gran volumen de datos.<br>
 
 Este diseño de base de datos proporciona una estructura sólida para almacenar y consultar datos sobre precios de combustibles, facilitando el análisis y la generación de reportes.
